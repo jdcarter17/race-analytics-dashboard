@@ -2,7 +2,7 @@ from flask import Flask
 
 @app.route("/api/test")
 def test():
-    return {"participants": 120, "male": 70, "female": 50)
+    return {"participants": 120, "male": 70, "female": 50}
 
 app = Flask(__name__)
 
